@@ -1,5 +1,5 @@
 import "./styles/App.scss";
-import { Button } from "react-bootstrap";
+import { Button, Alert } from "react-bootstrap";
 
 export default function App() {
   return (
@@ -7,6 +7,7 @@ export default function App() {
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
       <Button variant="primary">Primary</Button>
+      <Alert variant="info">asdsadsad</Alert>
     </div>
   );
 }
